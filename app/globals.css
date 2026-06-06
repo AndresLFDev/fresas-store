@@ -7,9 +7,9 @@
   --surface-raised: oklch(0.975 0.015 350);
   --ink: oklch(0.32 0.045 355);
   --ink-muted: oklch(0.50 0.04 355);
-  --primary: oklch(0.645 0.175 13);
-  --primary-ink: #ffffff;
-  --primary-soft: oklch(0.935 0.045 350);
+  --brand: oklch(0.645 0.175 13);
+  --brand-ink: #ffffff;
+  --brand-soft: oklch(0.935 0.045 350);
   --leaf: oklch(0.64 0.13 150);
   --border: oklch(0.92 0.02 350);
   --shadow: 0 18px 44px -22px oklch(0.55 0.13 10 / 0.45);
@@ -26,9 +26,9 @@
   --color-surface-raised: var(--surface-raised);
   --color-ink: var(--ink);
   --color-ink-muted: var(--ink-muted);
-  --color-primary: var(--primary);
-  --color-primary-ink: var(--primary-ink);
-  --color-primary-soft: var(--primary-soft);
+  --color-brand: var(--brand);
+  --color-brand-ink: var(--brand-ink);
+  --color-brand-soft: var(--brand-soft);
   --color-leaf: var(--leaf);
   --color-border: var(--border);
 }
