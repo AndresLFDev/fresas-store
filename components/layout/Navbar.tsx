@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function Navbar() {
     return (
-        <nav>
+        <nav className="sticky top-0 z-40 bg-white">
             <div>
                 <Link href="/">
                     <Image src="/logo.png" alt="Logo" width={100} height={100} />
