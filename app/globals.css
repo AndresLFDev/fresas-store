@@ -17,6 +17,10 @@
 }
 
 @theme inline {
+  --font-display: var(--font-fredoka);
+  --font-body: var(--font-nunito);
+
+
   --color-bg: var(--bg);
   --color-bg-2: var(--bg-2);
   --color-surface: var(--surface);
@@ -53,5 +57,5 @@
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: inherit;
+  font-family: var(--font-nunito);
 }
