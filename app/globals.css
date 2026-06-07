@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
 :root {
+  --ease-spring: cubic-bezier(.34, 1.4, .5, 1);
+
   --base: oklch(0.985 0.012 350);
   --base-subtle: oklch(0.965 0.022 348);
   --surface: #ffffff;
@@ -17,6 +19,8 @@
 }
 
 @theme inline {
+  --ease-bounce: var(--ease-spring);
+
   --font-display: var(--font-fredoka);
   --font-body: var(--font-nunito);
 
@@ -31,6 +35,9 @@
   --color-brand-soft: var(--brand-soft);
   --color-leaf: var(--leaf);
   --color-border: var(--border);
+
+  --shadow-basic: var(--shadow);
+  --shadow-small: var(--shadow-sm);
 }
 
 /*
